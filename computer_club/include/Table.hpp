@@ -23,8 +23,8 @@ class Table {
   string getClientName() const { return clientName; }
 
  private:
-  int totalMinutes;
-  int totalIncome;
+ long long int totalMinutes=0;
+ long long int totalIncome=0;
   string clientName="";
   Time entryTime;
 };
