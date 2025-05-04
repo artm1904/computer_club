@@ -1,8 +1,8 @@
 __TLDR:__  для комплиляции и сборки выполнить следующее, свои примеры входных данных вставить в файл input.txt (располагается в директории input):
 
-git clone ...
+git clone https://github.com/artm1904/computer_club.git
 
-cd ./ComputerClub
+cd ./computer_club
 
 cmake -S . -B build/
 
