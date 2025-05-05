@@ -32,6 +32,7 @@ add_library(computer_club_lib
   src/Table.cpp
   src/Time.cpp
   src/main.cpp 
+)
 
 target_include_directories(computer_club_lib PUBLIC
   $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/include>
