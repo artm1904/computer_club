@@ -30,9 +30,6 @@ int main(int argc, char* argv[]) {
     return 1;
   }
 
-  // std::cout << "Club data parsed successfully." << endl;
-  // club.print();
-
   string line;
   // Чтение и обработка событий
 
@@ -50,12 +47,6 @@ int main(int argc, char* argv[]) {
       inputFile.close();
       return 1;
     }
-
-    // std::cout << "Event data parsed successfully." << endl;
-    // event.printEventInfo();
-    // std::cout << "========================================================================="
-    // << endl;
-
     cout << line << endl;
     club.processEvent(event);
   }

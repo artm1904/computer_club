@@ -31,8 +31,7 @@ add_library(computer_club_lib
   src/Parser.cpp
   src/Table.cpp
   src/Time.cpp
-  src/main.cpp #Я убрал main.cpp, т.к он не нужен в библиотеке
-)
+  src/main.cpp 
 
 target_include_directories(computer_club_lib PUBLIC
   $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/include>
